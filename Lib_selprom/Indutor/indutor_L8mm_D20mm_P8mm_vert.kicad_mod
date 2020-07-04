@@ -1,0 +1,18 @@
+(module indutor_L8mm_D20mm_P8mm_vert (layer F.Cu) (tedit 5EE93473)
+  (descr "Inductor, Murata BL01RN1A2A2, Axial, Horizontal, pin pitch=10.00mm, length*diameter=5*3.6mm, https://www.murata.com/en-global/products/productdetail?partno=BL01RN1A2A2%23")
+  (tags "inductor axial horizontal")
+  (fp_text reference L2 (at 0.1016 3.9624) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value INDUTOR_L8.0mm_D20mm_P8mm_VERTICAL (at 1.4224 -4.6736) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0.0254 -0.1778) (end 3.2258 0.6604) (layer F.SilkS) (width 0.12))
+  (pad 1 thru_hole circle (at -4.0132 -0.3048) (size 3.5 3.5) (drill 1.5) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 3.9868 -0.3048) (size 3.5 3.5) (drill 1.5) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Inductor_THT.3dshapes/L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
